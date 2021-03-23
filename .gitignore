@@ -1,0 +1,4 @@
+dist/
+.idea/
+secret.json
+node_modules

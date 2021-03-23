@@ -1,0 +1,28 @@
+{
+  "compilerOptions":{
+    "target":"es6",
+    "moduleResolution":"node",
+    "module":"commonjs",
+    "declaration":false,
+    "lib": [
+      "es2019",
+      "DOM"
+    ],
+    "sourceMap":true,
+    "pretty":true,
+    "noImplicitAny":true,
+    "noImplicitReturns":false,
+    "noImplicitUseStrict":false,
+    "outDir":"dist/",
+    "baseUrl":"src/",
+    "listFiles":false,
+    "noEmitHelpers":true
+  },
+  "include":[
+    "src/**/*"
+  ],
+  "exclude":[
+    "node_modules"
+  ],
+  "compileOnSave":false
+}
